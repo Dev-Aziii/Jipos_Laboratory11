@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('state_province');
             $table->unsignedBigInteger('country_id');
 
-          //  $table->foreign('location_id')->references('id')->on('countries')->onDelete('cascade');
             $table->timestamps();
         });
     }
